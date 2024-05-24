@@ -95,7 +95,7 @@ class BankAccount implements IBankAccount {
 }
 }
 (async () => {
-    console.log(chalk.green.bold("\t...Welcome to My Bank App...\t"))
+    console.log(chalk.green.bold("\t...Welcome to My Bank App...\t"));
     const customerInfo = await inquirer.prompt([
         { 
           name: 'firstName', 
